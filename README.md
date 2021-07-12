@@ -1,14 +1,18 @@
 _your zenodo badge here_
 
-# lastname-etal_year_journal
+# tebaldi-etal_2021_tbd
 
-**A long-term global energy-economic model of carbon dioxide release from fossil fuel use**
+**Extreme sea levels at different global warming levels**
 
-Jae Edmonds<sup>1\*</sup> and John Reilly<sup>1</sup>
+Claudia Tebaldi<sup>1\*</sup>, Roshanka Ranasinghe<sup>2</sup>, Michalis Vousdoukas<sup>3</sup>, D. J. Rasmussen, Ben Vega-Westhoff, Ebru Kirezci, Robert E. Kopp, Ryan Sriver, and Lorenzo Mentaschi<sup>1</sup>
 
-<sup>1 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, 1346 Connecticut Avenue, NW, Washington, DC 20036, USA
+<sup>1 </sup> Pacific Northwest National Laboratory, College Park, MD, USA  
+<sup>2 </sup> IHE Delft Institute for Water Education, Delft, Netherlands  
+<sup>3 </sup> European Commission, Joint Research Centre, Ispra, Italy  
 
-\* corresponding author:  email@myorg.gov
+
+
+\* corresponding author: claudia.tebaldi@pnnl.gov
 
 ## Abstract
 In this paper the authors develop a long-term global energy-economic model which is capable of assessing alternative energy evolutions over periods of up to 100 years. The authors have sought to construct the model so that it can perform its assigned task with as simple a modelling system as possible. The model structure is fully documented and a brief summary of results is given.
