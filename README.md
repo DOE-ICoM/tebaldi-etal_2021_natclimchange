@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# tebaldi-etal_2021_tbd
+# tebaldi-etal_2021_natclimchange
 
 **Extreme sea levels at different global warming levels**
 
@@ -21,10 +21,10 @@ Claudia Tebaldi<sup>1\*</sup>, Roshanka Ranasinghe<sup>2</sup>, Michalis Vousdou
 The Paris agreement focused global climate mitigation policy on limiting global warming to 1.5C or 2C above pre-industrial. Consequently, projections of hazards and risk are increasingly framed in terms of global warming levels (GWLs) rather than emission scenarios. Here, for the first time, we describe changes in extreme sea levels (ESLs) driven by changes in mean sea level associated with a wide range of GWLs, from 1.5C to 5C, and for a large number of locations providing uniform coverage over most of the world's coastlines. Our novel multi-method approach estimates that by 2100 approximately 50% of the 7,000+ locations considered will experience the present-day 100-yr ESL event at least once a year, even under 1.5C of warming, and often well before the end of the century. The tropics appear more sensitive than the Northern high latitudes, where some locations do not see this frequency change even for the highest GWLs.
 
 ## Journal reference
-Tebaldi, C., & CoAuthors (2021). Extreme sea levels at different global warming levels. TBD
+Tebaldi, C., & CoAuthors (2021). Extreme sea levels at different global warming levels. Nature Climate Change
 
 ## Code reference
-Tebaldi, C., & CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - TBD [Code]. Zenodo. TBD
+Tebaldi, C., & CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Nature Climate Change [Code]. Zenodo. TBD
 
 ## Data reference
 
