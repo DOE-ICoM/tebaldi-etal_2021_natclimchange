@@ -35,8 +35,10 @@ Tebaldi, C., & CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Natur
 Tebaldi, C., & CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nature Climate Change [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5095675.
 
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+1. Download and unzip the input data required to conduct the experiment using the DOI link above.
 
-| Script Name | Description | How to Run |
+2. Run the following R scripts in the `workflow_and_figures` directory to process the data and reproduce the figures used in this publication:
+
+| Step | Script Name | Description |
 | --- | --- | --- |
-| `generate_figures.py` | Script to generate my figures | `python3 generate_figures.py -i /path/to/inputs -o /path/to/outuptdir` |
+| 1 | `convolve_alltheway_fordatapub.R` | Script to generate my figures |
