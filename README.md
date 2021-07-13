@@ -29,7 +29,7 @@ Tebaldi, C., & CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Natur
 ## Data reference
 
 ### Input data
-Tebaldi, C., & CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nature Climate Change [Data set]. Zenodo. TBD
+Tebaldi, C., & CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nature Climate Change [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5095675.
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
