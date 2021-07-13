@@ -30,15 +30,13 @@ Tebaldi, C., & CoAuthors (2021). Extreme sea levels at different global warming 
 Tebaldi, C., & CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Nature Climate Change [Code]. Zenodo. TBD
 
 ## Data reference
-
-### Input data
 Tebaldi, C., & CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nature Climate Change [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5095675.
 
 ## Reproduce my figures
-1. Download and unzip the input data required to conduct the experiment using the DOI link above.
+1. Download and unzip the input data required to conduct the experiment using the DOI link in the `Data reference` section above.
 
 2. Run the following R scripts in the `workflow_and_figures` directory to process the data and reproduce the figures used in this publication:
 
 | Step | Script Name | Description |
 | --- | --- | --- |
-| 1 | `convolve_alltheway_fordatapub.R` | Script to generate my figures |
+| 1 | `convolve_alltheway_fordatapub.R` | TBD |
