@@ -1,4 +1,4 @@
-_your zenodo badge here_
+[![DOI](https://zenodo.org/badge/385398259.svg)](https://zenodo.org/badge/latestdoi/385398259)
 
 # tebaldi-etal_2021_natclimchange
 
