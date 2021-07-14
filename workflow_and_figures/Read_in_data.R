@@ -1,5 +1,5 @@
 remove(list=ls())
-filedir<-"~/Desktop/ForCasey/"
+filedir<-"./"
 source(paste0(filedir,"Rcode/allfunctions.r"))
 
 rl1k<-read.csv(filedir%&%"CSV/Kirezci/Kirezci_ESLs.csv")
