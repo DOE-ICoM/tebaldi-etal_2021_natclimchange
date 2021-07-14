@@ -34,7 +34,7 @@ Tebaldi, C., and CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nat
 
 ## Reproduce my results
 1. Set up a working directory, with naming of your choice. Create four subdirectories, named CSV, Rcode, Rdatasets, pics. Using the DOI link in the `Data reference` section above, download and unzip the input data into the CSV directory. You should have three subdirectories named Kirezci, Vousdoukas and Rasmussen.
-2. Download the R scripts into the Rcode directory. In all but `allfunctions.r` and `convolve_alltheway_fordatapub.R` change `filedir` to the path of your working directory, which could be as simple as filedir<-"./" if you are running R from it. 
+2. Download the R scripts into the Rcode directory. In all but `allfunctions.r` and `convolve_alltheway_fordatapub.R` change `filedir` to the path of your working directory, which could be as simple as `filedir<-"./"` if you are running R from it. 
 3.  Run the following R scripts to process the data and reproduce the main figures in this publication:
 
 | Step | Script Name | Description |
