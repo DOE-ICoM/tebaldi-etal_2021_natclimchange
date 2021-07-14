@@ -32,11 +32,14 @@ Tebaldi, C., and CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Nat
 ## Data reference
 Tebaldi, C., and CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nature Climate Change [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5095675.
 
-## Reproduce my figures
-1. Download and unzip the input data required to conduct the experiment using the DOI link in the `Data reference` section above.
-
-2. Run the following R scripts in the `workflow_and_figures` directory to process the data and reproduce the figures used in this publication:
+## Reproduce my results
+1. Set up a working directory, with naming of your choice. Create four subdirectories, named CSV, Rcode, Rdatasets, pics. Using the DOI link in the `Data reference` section above, download and unzip the input data into the CSV directory. You should have three subdirectories named Kirezci, Vousdoukas and Rasmussen.
+2. Download the R scripts into the Rcode directory. In all but `allfunctions.r` and `convolve_alltheway_fordatapub.R` change `filedir` to the path of your working directory, which could be as simple as filedir<-"./" if you are running R from it. 
+3.  Run the following R scripts to process the data and reproduce the main figures in this publication:
 
 | Step | Script Name | Description |
 | --- | --- | --- |
-| 1 | `convolve_alltheway_fordatapub.R` | TBD |
+| 1 | `Read_in_data.R` | reads and restructures the CSV files into R arrays
+| 2 | `probabilisticprojections_and_TWL100TWL1difference_fordatapub.r` | applies the Fisher Information Matrix approach to the ESLs parameter estimates and convolves a sample from their distribution with a sample from the SLR projections; computes the difference between 100-yr and 1-yr events. 
+| 3 | `votingsystem_fordatapub.R` | applies the voting system synthesis approach to the individual distribution to produce the main results of the paper, including part of the content in Table 1, and plots Figure 1. 
+| 4 | `convolve_alltheway_fordatapub.R` | performs the full convolution as an alternative to the voting system. Produces the remaining content of Table 2, plots ED Figures 3 and 4.  Also performs analysis of timing of change in frequency, resulting in Table 2 and Supplementary Figures 12-19.
