@@ -33,7 +33,7 @@ Tebaldi, C., and CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Nat
 Tebaldi, C., and CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nature Climate Change [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5095675.
 
 ## Reproduce my results
-1. Set up a working directory, with naming of your choice. Create two subdirectories named 'Rdatasets' and 'pics'. Using the DOI link in the `Data reference` section above, download and unzip the input data into the working directory. You should see a directory called 'tebaldi-etal_2021_natclimchange_data' with three subdirectories named 'Kirezci', 'Vousdoukas', and 'Rasmussen'. Do the same with the R scripts, which should be stored in a directory named 'Rcode'.
+1. Set up a working directory, with naming of your choice. Create two subdirectories named 'Rdatasets' and 'pics'. Using the DOI link in the `Data reference` section above, download and unzip the input data into the working directory. You should see a directory called 'tebaldi-etal_2021_natclimchange_data' with three subdirectories named Kirezci, Vousdoukas and Rasmussen. Change the name of the 'tebaldi-etal_2021_natclimchange_data' directory to 'CSV'. Download and unzip the R scripts into the working directory, which should be stored in a directory named 'Rcode'.
 2. In all but `allfunctions.r` and `convolve_alltheway_fordatapub.R`, change `filedir` to the path of your working directory if needed, unless you are running R from it already, in which case the current setting `filedir<-"./"` works.
 3. Run the following R scripts to process the data and reproduce the main figures in this publication:
 
