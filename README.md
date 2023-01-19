@@ -24,7 +24,7 @@ We estimate that by 2100 approximately 50% of the 7,000+ locations considered wi
 
 
 ## Journal reference
-Tebaldi, C., and CoAuthors (2021). Extreme sea levels at different global warming levels. Accepted in *Nature Climate Change* - July 2021.
+Tebaldi, C., and CoAuthors (2021). Extreme sea levels at different global warming levels. *Nature Climate Change*, 11, 746-751, https://doi.org/10.1038/s41558-021-01127-1.
 
 ## Code reference
 Tebaldi, C., and CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Nature Climate Change [Code]. Zenodo. https://doi.org/10.5281/zenodo.5103345.
