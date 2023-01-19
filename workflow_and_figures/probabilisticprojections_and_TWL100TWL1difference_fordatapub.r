@@ -312,6 +312,23 @@ for(ii in seq(nrow(rl1v))){
 save(list=c(objects(pattern="probproj"),objects(pattern="shape.scale.TWL.samples") ),file=filedir%&%"Rdatasets/RData_convolutions_fisherinfo_2100")
 #note that by loading a different decade's data the same procedure creates convolutions for earlier times.
 
+#fixing the bug:
+
+kirezci.freq.probproj[,4,,"bvw"]<-kirezci.freq.probproj[,3,,"bvw"]
+kirezci.freq.probproj[,9,,"bvw"]<-kirezci.freq.probproj[,8,,"bvw"]
+rasmussen.freq.probproj[,4,,"bvw"]<-rasmussen.freq.probproj[,3,,"bvw"]
+rasmussen.freq.probproj[,9,,"bvw"]<-rasmussen.freq.probproj[,8,,"bvw"]
+vousdoukas.freq.probproj[,4,,"bvw"]<-vousdoukas.freq.probproj[,3,,"bvw"]
+vousdoukas.freq.probproj[,9,,"bvw"]<-vousdoukas.freq.probproj[,8,,"bvw"]
+kirezci.int.probproj[,4,,"bvw"]<-kirezci.int.probproj[,3,,"bvw"]
+kirezci.int.probproj[,9,,"bvw"]<-kirezci.int.probproj[,8,,"bvw"]
+rasmussen.int.probproj[,4,,"bvw"]<-rasmussen.int.probproj[,3,,"bvw"]
+rasmussen.int.probproj[,9,,"bvw"]<-rasmussen.int.probproj[,8,,"bvw"]
+vousdoukas.int.probproj[,4,,"bvw"]<-vousdoukas.int.probproj[,3,,"bvw"]
+vousdoukas.int.probproj[,9,,"bvw"]<-vousdoukas.int.probproj[,8,,"bvw"]
+
+save(list=c(objects(pattern="probproj"),objects(pattern="shape.scale.TWL.samples") ),file=filedir%&%"Rdatasets/RData_convolutions_fisherinfo_2100")
+
 
 
 mm1<-match(dimnames(rl1r.diff.100.1)[[1]],dimnames(rl1k.diff.100.1)[[1]])

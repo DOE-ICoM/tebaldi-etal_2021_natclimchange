@@ -24,7 +24,7 @@ We estimate that by 2100 approximately 50% of the 7,000+ locations considered wi
 
 
 ## Journal reference
-Tebaldi, C., and CoAuthors (2021). Extreme sea levels at different global warming levels. Accepted in *Nature Climate Change* - July 2021.
+Tebaldi, C., and CoAuthors (2021). Extreme sea levels at different global warming levels. *Nature Climate Change*, 11, 746-751, https://doi.org/10.1038/s41558-021-01127-1.
 
 ## Code reference
 Tebaldi, C., and CoAuthors (2021). Supporting code for Tebaldi et al. 2021 - Nature Climate Change [Code]. Zenodo. https://doi.org/10.5281/zenodo.5103345.
@@ -43,3 +43,14 @@ Tebaldi, C., and CoAuthors (2021). Supporting data for Tebaldi et al. 2021 - Nat
 | 2 | `probabilisticprojections_and_TWL100TWL1difference_fordatapub.r` | Applies the Fisher Information Matrix approach to the ESLs parameter estimates and convolves a sample from their distribution with a sample from the SLR projections; computes the difference between 100-yr and 1-yr events.
 | 3 | `votingsystem_fordatapub.R` | Applies the voting system synthesis approach to the individual distribution to produce the main results of the paper, including part of the content in Table 1 and Figure 1.
 | 4 | `convolve_alltheway_fordatapub.R` | Performs the full convolution as an alternative to the voting system. Produces the remaining content of Table 2, plots ED Figures 3 and 4.  Also performs analysis of timing of change in frequency, resulting in Table 2 and Supplementary Figures 12-19.
+
+## Correction
+The newest release of this metarepository addresses a bug we found after the paper and code was released. As described 
+in the paper, we match two scenarios (2+ and 5+) that include the effects of ice-sheet melt and are 
+available only within the projections obtained by the Rasmussen et al. 2018 method to the 2 degrees and 5 degrees 
+scenarios from the other method, by Vega-Westhoff et al., 2019. A glitch in our original code, however, did not perform 
+this matching correctly, and created NAs that – undetected -- affected the results from the voting system. The new code 
+fixes this problem. The results of the paper are affected quantitatively but not qualitatively. In fact, the results 
+from the voting system after the correction are closer to the results of the full convolution method, presented as an 
+alternative approach in the paper. As of January 2022, we are in the process of posting a correction in the journal 
+to document in detail all changes.
