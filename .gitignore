@@ -1,6 +1,6 @@
 # sys files
 .DS_Store
-.idea/
+.idea
 
 # -----------------
 # ---- PYTHON -----
